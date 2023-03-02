@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
+        //mosa SAVE to firebase
         findViewById<Button>(R.id.save).setOnClickListener {
 
             val name = findViewById<EditText>(R.id.PersonName).text.toString()
